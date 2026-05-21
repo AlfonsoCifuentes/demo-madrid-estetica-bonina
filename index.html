@@ -1,76 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dra. Bonina - Medicina Estética Avanzada</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Montserrat', sans-serif; }
-        .mobile-first-container { max-width: 480px; margin: 0 auto; background: #fff; min-height: 100vh; position: relative; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dra. Bonina - Medicina Estética Avanzada</title>
+  <meta name="description" content="Dra. Bonina ofrece medicina estética avanzada en Madrid con un enfoque médico, natural y personalizado." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-gray-50">
-    <div class="mobile-first-container shadow-xl">
-        <!-- Minimal Header -->
-        <header class="p-6 text-center border-b">
-            <h1 class="text-xl font-light tracking-[0.2em] uppercase">Dra. Bonina</h1>
-            <p class="text-[9px] text-gray-400 mt-1 tracking-widest">MEDICINA ESTÉTICA</p>
-        </header>
-
-        <!-- Aesthetic Hero -->
-        <section class="p-8">
-            <div class="relative rounded-3xl overflow-hidden aspect-[3/4] shadow-lg mb-8">
-                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=800" alt="Medicina Estética" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                <div class="absolute bottom-6 left-6 text-white">
-                    <h2 class="text-2xl font-semibold leading-tight">Tu mejor versión, <br>naturalmente.</h2>
-                </div>
-            </div>
-
-            <!-- Focus on Authority (Business-First) -->
-            <div class="space-y-6">
-                <div>
-                    <h3 class="text-sm font-bold text-gray-800 mb-2 uppercase tracking-wider italic">Tratamientos Destacados</h3>
-                    <div class="grid grid-cols-2 gap-3">
-                        <div class="p-3 bg-white border border-gray-100 rounded-2xl shadow-sm text-center">
-                            <div class="text-[10px] font-semibold text-gray-700">Ácido Hialurónico</div>
-                        </div>
-                        <div class="p-3 bg-white border border-gray-100 rounded-2xl shadow-sm text-center">
-                            <div class="text-[10px] font-semibold text-gray-700">Bioestimulación</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm">
-                    <h3 class="text-xs font-bold text-gray-800 mb-3 uppercase tracking-wider">¿Por qué elegir a la Dra. Bonina?</h3>
-                    <ul class="text-xs text-gray-600 space-y-3">
-                        <li class="flex items-start gap-2"><span>[Icono Estética]</span> <span class="pt-0.5">Resultados 100% naturales.</span></li>
-                        <li class="flex items-start gap-2">👩‍⚕️ <span class="pt-0.5">Atención médica personalizada.</span></li>
-                        <li class="flex items-start gap-2">🔝 <span class="pt-0.5">Tecnología de última generación.</span></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Social Proof/Reviews (Business-First) -->
-        <section class="px-8 pb-32">
-             <div class="flex items-center gap-1 mb-4">
-                <div class="flex text-yellow-400 text-xs"></div>
-                <div class="text-[10px] text-gray-400 font-bold">(+150 reseñas en Google)</div>
-             </div>
-        </section>
-
-        <!-- Interaction (Mobile-First) -->
-        <div class="fixed bottom-0 left-1/2 -translate-x-1/2 w-[480px] p-4 bg-white/80 backdrop-blur-md border-t flex gap-4">
-            <button class="flex-1 bg-black text-white py-4 rounded-2xl text-[10px] font-bold uppercase tracking-widest shadow-xl">
-                Cita por WhatsApp
-            </button>
-            <button class="w-14 h-14 bg-gray-100 rounded-2xl flex items-center justify-center text-xl shadow-inner">
-                Tel:
-            </button>
+<body>
+  <header class="site-header">
+    <a href="#inicio" class="brand">Dra. Bonina<span>Medicina estética avanzada</span></a>
+    <nav class="site-nav" aria-label="Principal">
+      <a href="#tratamientos">Tratamientos</a>
+      <a href="#porque">Perfil</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio" class="hero-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Consulta médica estética · Madrid</p>
+        <h1>Tu mejor versión, naturalmente.</h1>
+        <p class="intro">La Dra. Bonina aborda la medicina estética desde la sutileza clínica: valorar bien el rostro, proponer menos pero mejor y acompañar cada decisión con seguimiento médico y resultado armónico.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="button button-solid">Solicitar valoración</a>
+          <a href="#tratamientos" class="button button-outline">Explorar tratamientos</a>
         </div>
-    </div>
+      </div>
+      <aside class="hero-panel">
+        <span>Enfoque</span>
+        <strong>Precisión médica y resultado natural</strong>
+        <p>Valoración facial, protocolo personalizado y control evolutivo en cada tratamiento.</p>
+      </aside>
+    </section>
+    <section id="tratamientos" class="treatments-shell">
+      <div class="section-header">
+        <p class="eyebrow">Tratamientos destacados</p>
+        <h2>Protocolos pensados para mejorar rasgos, textura y luminosidad sin perder identidad.</h2>
+      </div>
+      <div class="treatments-grid">
+        <article><h3>Armonización facial</h3><p>Ajuste delicado de volúmenes para un resultado sereno y coherente.</p></article>
+        <article><h3>Bioestimulación</h3><p>Mejora de firmeza y calidad cutánea con enfoque progresivo.</p></article>
+        <article><h3>Textura y luminosidad</h3><p>Tratamientos para afinar poro, tono y uniformidad de la piel.</p></article>
+        <article><h3>Plan de mantenimiento</h3><p>Seguimiento clínico para sostener resultados con criterio temporal.</p></article>
+      </div>
+    </section>
+    <section id="porque" class="reasons-shell">
+      <div class="section-header section-header-light">
+        <p class="eyebrow">Por qué elegir a la Dra. Bonina</p>
+        <h2>Escucha clínica, diagnóstico fino y decisiones proporcionadas.</h2>
+      </div>
+      <div class="reasons-grid">
+        <article><span>01</span><h3>Valoración médica</h3><p>Cada propuesta nace de una lectura facial y cutánea real, no de una plantilla.</p></article>
+        <article><span>02</span><h3>Naturalidad</h3><p>El objetivo es mejorar sin hacer evidente la intervención.</p></article>
+        <article><span>03</span><h3>Seguimiento</h3><p>Se revisa evolución, respuesta tisular y mantenimiento del resultado.</p></article>
+      </div>
+    </section>
+    <section id="contacto" class="cta-shell">
+      <p class="eyebrow">Contacto</p>
+      <h2>Reserva una valoración para definir qué necesita realmente tu piel o tu rostro.</h2>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>Dra. Bonina · Medicina Estética Avanzada</p>
+    <p>Madrid · Enfoque médico, natural y personalizado</p>
+  </footer>
 </body>
 </html>
